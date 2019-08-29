@@ -1,3 +1,3 @@
-# Algoritmo de otimização Cuckoo Search
+# cs: Cuckoo Search metaheuristic algorithm to perform global searches in R
 
-### O Algoritmo é composto por uma função auxiliar "cs_aux" onde esta deve conter uma função de otimização em que pelo menos um parâmetro não seja definido Hard Code.
+Pacote disponibilizado em R para executar funções de otimização, com a função auxiliar a ser definida como parâmetro de entrada. O algoritmo do cuckoo serach obtém o global mínimo da função a ser definida. 
