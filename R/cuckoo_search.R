@@ -29,7 +29,7 @@ source("R/get_cuckoos.R")
 source("R/empty_nests.R")
 
 
-cuckoo_search <- function(n = 25, maxIter = 10^5, pa = 0.25, Tol = 1e-05, nd = 2, lb, ub) {
+cuckoo_search <- function(n = 25, maxIter = 10^5, pa = 0.25, Tol = 1e-05, nd = 2, lb = 0, ub = pi) {
     # Max Iteration maxIter = 10^5 # Number of nests (or different solutions) n <- 25 # Discovery rate of alien eggs/solutions
     # pa <- 0.25 ## Change this if you want to get better results # Tolerance Tol <- 1.0e-5 ## Simple bounds of the search
     # domain # Lower bounds nd <- 2 #Dimension
