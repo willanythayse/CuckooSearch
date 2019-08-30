@@ -1,4 +1,4 @@
-source("R/simplesbounds.R")
+source("simplesbounds.R")
 
 # --------------- All subfunctions are list below ------------------
 # Get cuckoos by ramdom walk
