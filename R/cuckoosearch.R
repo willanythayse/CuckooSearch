@@ -24,9 +24,9 @@
 # This Function should be find the best nest 'global minimum'
 # The function of optimization (aux function) should be defined with your Lower bound 'lb' and Upper bound 'ub'
 
-source("get_best_nest.R")
-source("get_cuckoos.R")
-source("empty_nests.R")
+source("R/get_best_nest.R")
+source("R/get_cuckoos.R")
+source("R/empty_nests.R")
 
 
 cuckoo_search <- function(n = 25, maxIter = 10^5, pa = 0.25, Tol = 1e-05, nd = 2, lb = 0, ub = pi) {

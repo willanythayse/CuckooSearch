@@ -1,5 +1,5 @@
 
-source("simplesbounds.R")
+source("R/simplesbounds.R")
 
 ## Replace some nests by constructing new solutions/nests
 empty_nests <- function (nest,Lb,Ub,pa){

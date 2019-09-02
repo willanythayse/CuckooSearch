@@ -1,5 +1,5 @@
 
-source("fobj.R")
+source("R/fobj.R")
 
 ## Find the current best nest
 get_best_nest <- function (nest,newnest,fitness){

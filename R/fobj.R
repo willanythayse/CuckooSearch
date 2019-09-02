@@ -1,4 +1,4 @@
-source("michal.R")
+source("R/michal.R")
 
 ## You can replace the following by your own functions
 # A d-dimensional objective function
