@@ -1,11 +1,13 @@
 Package: cuckoosearch
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Title: Cuckoo search metaheuristic algorithm, minimal global result optimization
+Version: 1.0.0
+Date: 2019-09-30
+Authors@R: c(person(given = "Willany", family ="Jordão", role = c("aut", "cre"),
+  email = "willany.thayse@gmail.com", comment = c(ORCID = "0000-0002-6230-2499")))
+Maintainer: Willany Thayse Jordão <willany.thayse@gmail.com>
+Description: Cuckoo search metaheuristic algorithm, minimal global result optimization.
 License: What license is it under?
 Encoding: UTF-8
-LazyData: true
+LazyData: yes
+URL: https://github.com/willanythayse/CuckooSearch

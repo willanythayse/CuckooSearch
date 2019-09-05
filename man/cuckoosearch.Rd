@@ -1,7 +1,9 @@
 \name{cuckoosearch}
-\alias{cuckoosearch}
+\alias{cs}
 \title{Cuckoo Search metaheuristic algorithm to perform global.}
-\usage{cuckoosearch(n = 25, maxIter = 10^5, pa = 0.25, Tol = 1e-05, nd = 2, lb = 0, ub = pi)}
+\usage{
+	cuckoosearch(n = 25, maxIter = 10^5, pa = 0.25, Tol = 1e-05, nd = 2, lb = 0, ub = pi)
+}
 \description{
 	The Cuckoo Search function contains algorithm to get the minimum global of other optimization functions.
 }
@@ -14,3 +16,5 @@
 
 	X.-S. Yang, S. Deb, \emph{Cuckoo search via L´evy flights,}. India. IEEE Publications, USA, pp. 210-214, 2009.
 }
+
+\keyword{file}
